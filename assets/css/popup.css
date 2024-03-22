@@ -1,0 +1,135 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Roboto';
+
+} */
+/* .contenti{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    color: aliceblue;
+    line-height: 1.3;
+
+} */
+h1{
+    font-size: 50px;
+    margin-top: 20%;
+ 
+}
+.logoxx{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border: 4px solid rgba(241, 241, 241, 0.633);
+    margin-right: 0px;
+    border-radius: 10px;
+    text-shadow: -4px -1px 10px #c7da96;
+
+   
+}
+.wps{
+   margin-left: 0%;
+   width: 210px;
+}
+.al{
+ text-align: center;
+    justify-content: center;
+    margin-left: 0%;
+    font-size: 20px;
+   
+}
+.al img{
+    width: 30px;
+}
+.para1{
+    text-align: center;
+    font-weight: 600;
+}
+.modal-container{
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.649);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* opacity: 0.77; */
+    transition: opacity 1s ease 0s;
+  
+}
+.modal-container:hover{
+    opacity: 1;
+}
+.modalpop{
+    z-index: 999;
+
+    border-radius: 39px ;
+    position: absolute;
+    overflow: hidden;
+    top: 20%;
+    left: 33%;
+    transform: translate(-50% -50%);
+    max-width: 100%;
+    width: 500px;
+    height: 560px;
+    box-shadow: 1px -2px 47px 15px #393a3a;
+}
+.modal-content{
+    padding: 1.2rem;
+    display: flex; 
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    font-size: 10px;
+    align-items: center;
+    width: 500px;
+    height: 560px;
+
+}
+
+.close-btnpop{
+    z-index: 1000;
+    font-size: 20px;
+    position: absolute ;
+    top: 10;
+    right: 0;
+    outline: none;
+    border: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5% ;
+
+}
+.close-btnpop i{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+#01 {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  #01.visible {
+    opacity: 1;
+  }
+
+
+.modal-container {
+    display: none; 
+}
+
+.visible {
+    display: block !important; 
+}
+
+.modalpop {
+   
+}
